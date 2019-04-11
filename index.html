@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <title>Parks Search</title>
+        <link rel="stylesheet" href="index.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    </head>
+    <body>
+        <h1>Parks Search</h1>
+        <form>            
+            <input type="text" id="search">
+            <label for="state">State</label>
+            <select id="state">
+                <!--<option>WA</option>-->
+            </select>
+            <label for="number-results">Max Results</label>
+            <select id="number-results">
+                <!--<option>1</option>-->
+            </select>            
+            <input type="submit" value="Search">
+        </form>
+        <section class="results "> <!--hidden-->
+            <h2>Search Results</h2>
+            <ol id="result-list">
+                <!--
+                    <li>
+                        <div><p class='repoTitle'>test</p><p><a href='www' target='_'>www</a></p></div>
+                        <div>Desc</div>
+                    </li> -->
+            </ol>
+        </section>
+    </body>
+    <script src="index.js"></script>
+</html>

@@ -1,0 +1,74 @@
+/** {border: 1px solid gray;} */
+body {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: calc(10px + (20 - 10) * ((100vw - 360px) / (1560)));
+}
+div {
+    display: inline-block;
+    width: 20%;
+}
+div:nth-child(2) {
+    width: 75%;
+    text-align: left;
+    vertical-align: top;
+}
+form {
+    width: 50vw;
+    display: grid;    
+    margin-left: auto;
+    margin-right: auto;
+}
+.gladr {
+    text-decoration: none;
+}
+.hidden {
+    display: none;
+}
+input {
+    border-radius: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;    
+}
+label {
+    float: left;
+}
+li {
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin-bottom: 1vh;
+    width: 100%;
+    vertical-align: top;
+}
+#numresults {
+    grid-column: 2 / 3;
+}
+.repoTitle {
+    font-weight: bold;
+}
+p {
+    display: block;
+    margin-right: 2vw;
+    overflow-wrap: break-word;
+    text-align: left;    
+}
+section {
+    margin: 0 auto;
+}
+select {
+    border-radius: 2px;
+    margin-left: auto;
+    margin-right: auto;    
+    min-width: 40px;
+    text-align: center;
+    width: 4vw;
+}
+input[type=submit] {
+    width: 4vw;
+    margin-top: 4vw;
+    min-width: 60px;
+}
+text {
+    width: 50vw;
+}
