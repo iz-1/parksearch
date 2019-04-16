@@ -6,12 +6,16 @@ body {
 }
 div {
     display: inline-block;
-    width: 20%;
+    height: 100%;
+    width: 25%;
+    vertical-align: bottom;
 }
 div:nth-child(2) {
-    width: 75%;
+    width: 70%;
     text-align: left;
-    vertical-align: top;
+    /*margin-bottom: 50px; */
+    padding: 1em 0;
+    float: right;
 }
 form {
     width: 50vw;
@@ -50,7 +54,6 @@ li {
 }
 p {
     display: block;
-    margin-right: 2vw;
     overflow-wrap: break-word;
     text-align: left;    
 }
