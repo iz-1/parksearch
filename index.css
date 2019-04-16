@@ -33,6 +33,7 @@ input {
 }
 label {
     float: left;
+    margin: 1vh 0;
 }
 li {
     border: 1px solid gray;
@@ -66,7 +67,7 @@ select {
 }
 input[type=submit] {
     width: 4vw;
-    margin-top: 4vw;
+    margin-top: 2vw;
     min-width: 60px;
 }
 text {

@@ -11,25 +11,26 @@
     <body>
         <h1>Parks Search</h1>
         <form>            
-            <input type="text" id="search">
+            <input type="text" id="search" pattern=".{2,}" title="2 characters minimum" required>
+        <!--
             <label for="state">State</label>
             <select id="state">
-                <!--<option>WA</option>-->
             </select>
+        -->
             <label for="number-results">Max Results</label>
             <select id="number-results">
-                <!--<option>1</option>-->
             </select>            
             <input type="submit" value="Search">
         </form>
-        <section class="results "> <!--hidden-->
+        <section class="results hidden">
             <h2>Search Results</h2>
             <ol id="result-list">
                 <!--
                     <li>
                         <div><p class='repoTitle'>test</p><p><a href='www' target='_'>www</a></p></div>
                         <div>Desc</div>
-                    </li> -->
+                    </li> 
+                -->
             </ol>
         </section>
     </body>
